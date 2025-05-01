@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.db
+*.sqlite3
+*.log
+
+# Django
+media/
+static/
+.env
+
+# Env / Venv
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.bak
+Dockerfile
+docker-compose.override.yml
+
+# Migrations cache
+**/migrations/*.pyc
+**/migrations/__pycache__/
